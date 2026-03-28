@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { useAccount, useReadContract, useSwitchChain, useWriteContract } from "wagmi";
 import { CommitStatusChip } from "@/components/commit-status-chip";
+import { BUILDER_CODE, BUILDER_DATA_SUFFIX } from "@/lib/base-attribution";
 import { HashInputField } from "@/components/hash-input-field";
 import { secretHashAbi, secretHashAddress } from "@/lib/contract";
 import type { CommitRecord } from "@/lib/types";
@@ -43,6 +44,7 @@ export function CommitPanel({ onCommitted }: CommitPanelProps) {
         address: secretHashAddress,
         functionName: "commit",
         args: [hashValue as `0x${string}`],
+        dataSuffix: BUILDER_DATA_SUFFIX,
       });
 
       const createdAt = new Date().toISOString();
@@ -98,10 +100,10 @@ export function CommitPanel({ onCommitted }: CommitPanelProps) {
 
       <div className="field-shell" style={{ marginTop: 16 }}>
         <div className="field-label">
-          <span>Reveal Slot</span>
-          <span>Reserved</span>
+          <span>Attribution</span>
+          <span>ERC-8021</span>
         </div>
-        <div className="muted">Proof reveal flow can attach to this panel later without changing the commit route.</div>
+        <div className="muted">Builder code {BUILDER_CODE} is appended to commit calldata for Base attribution.</div>
       </div>
 
       <div className="button-row" style={{ marginTop: 16 }}>

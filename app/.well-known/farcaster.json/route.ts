@@ -1,4 +1,5 @@
 import type { NextRequest } from "next/server";
+import { BASE_APP_ID, BUILDER_CODE, BUILDER_DATA_SUFFIX } from "@/lib/base-attribution";
 
 export async function GET(request: NextRequest) {
   const origin = new URL(request.url).origin;
@@ -21,8 +22,10 @@ export async function GET(request: NextRequest) {
       webhookUrl: `${origin}/api/webhook`
     },
     baseBuilder: {
-      status: "pending-builder-code",
-      note: "Replace the builder code placeholder in lib/wagmi.ts when the production suffix is available."
+      appId: BASE_APP_ID,
+      builderCode: BUILDER_CODE,
+      dataSuffix: BUILDER_DATA_SUFFIX,
+      status: "configured"
     }
   });
 }
