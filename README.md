@@ -62,3 +62,8 @@ Start by reviewing the repository contents:
 
 ```sh
 ls
+```
+
+If the project includes scripts, commands, or examples, follow the instructions provided in those files.
+
+If a build file is present, use the commands defined there.
