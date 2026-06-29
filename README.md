@@ -45,3 +45,9 @@ Common files to check include:
 
 - `package.json`
 - `requirements.txt`
+- `pyproject.toml`
+- `Cargo.toml`
+- `go.mod`
+- `Makefile`
+- `README.md`
+- `docs/`
