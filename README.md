@@ -92,3 +92,8 @@ Run any available checks or tests before submitting changes.
 4. Run the project or available examples.
 5. Make changes on a separate branch.
 6. Run checks or tests if available.
+7. Commit and push your changes.
+
+## Contributing
+
+Contributions should follow the structure and conventions already present in the repository.
