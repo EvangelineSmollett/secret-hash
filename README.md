@@ -15,3 +15,9 @@ The repository is available on GitHub at:
 https://github.com/EvangelineSmollett/secret-hash.git
 
 Use this document as the main entry point for understanding how to work with the repository.
+
+## Features
+
+- Repository for the `secret-hash` project.
+- Source code is available from the public repository URL listed above.
+- Designed to be cloned, reviewed, and developed locally.
