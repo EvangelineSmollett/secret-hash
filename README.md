@@ -32,3 +32,9 @@ git clone https://github.com/EvangelineSmollett/secret-hash.git
 ```
 
 Then move into the project directory:
+
+```sh
+cd secret-hash
+```
+
+## Setup
