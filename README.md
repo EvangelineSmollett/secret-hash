@@ -103,3 +103,9 @@ When adding new functionality, include documentation or examples where helpful.
 When fixing an issue, describe the problem and the change clearly.
 
 ## Notes
+
+This README intentionally avoids assuming details that are not present in the original project description.
+
+Update this file as the project evolves.
+
+Add installation steps, usage examples, configuration details, and troubleshooting notes when they become available.
