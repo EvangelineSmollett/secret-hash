@@ -26,3 +26,9 @@ Use this document as the main entry point for understanding how to work with the
 ## Repository
 
 Clone the repository with:
+
+```sh
+git clone https://github.com/EvangelineSmollett/secret-hash.git
+```
+
+Then move into the project directory:
