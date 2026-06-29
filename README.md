@@ -79,3 +79,9 @@ git checkout -b my-change
 ```
 
 Make focused commits with clear commit messages.
+
+Keep changes small and easy to review.
+
+Run any available checks or tests before submitting changes.
+
+## Suggested Workflow
