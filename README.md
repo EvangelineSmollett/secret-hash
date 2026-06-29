@@ -73,3 +73,9 @@ If a test suite is present, run it with the appropriate test command for the pro
 ## Development Notes
 
 Before making changes, create a new branch:
+
+```sh
+git checkout -b my-change
+```
+
+Make focused commits with clear commit messages.
