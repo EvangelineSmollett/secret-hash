@@ -21,3 +21,8 @@ Use this document as the main entry point for understanding how to work with the
 - Repository for the `secret-hash` project.
 - Source code is available from the public repository URL listed above.
 - Designed to be cloned, reviewed, and developed locally.
+- Project-specific commands should be verified from the files included in the repository.
+
+## Repository
+
+Clone the repository with:
