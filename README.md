@@ -9,3 +9,9 @@ This README provides a clear starting point for cloning the repository, reviewin
 ## Overview
 
 The project name is `secret-hash`.
+
+The repository is available on GitHub at:
+
+https://github.com/EvangelineSmollett/secret-hash.git
+
+Use this document as the main entry point for understanding how to work with the repository.
