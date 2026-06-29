@@ -67,3 +67,9 @@ ls
 If the project includes scripts, commands, or examples, follow the instructions provided in those files.
 
 If a build file is present, use the commands defined there.
+
+If a test suite is present, run it with the appropriate test command for the project.
+
+## Development Notes
+
+Before making changes, create a new branch:
