@@ -85,3 +85,10 @@ Keep changes small and easy to review.
 Run any available checks or tests before submitting changes.
 
 ## Suggested Workflow
+
+1. Clone the repository.
+2. Review the project structure.
+3. Install any required dependencies.
+4. Run the project or available examples.
+5. Make changes on a separate branch.
+6. Run checks or tests if available.
