@@ -38,3 +38,10 @@ cd secret-hash
 ```
 
 ## Setup
+
+After cloning the repository, inspect the project files to determine the required setup steps.
+
+Common files to check include:
+
+- `package.json`
+- `requirements.txt`
