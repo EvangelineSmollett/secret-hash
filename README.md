@@ -97,3 +97,9 @@ Run any available checks or tests before submitting changes.
 ## Contributing
 
 Contributions should follow the structure and conventions already present in the repository.
+
+When adding new functionality, include documentation or examples where helpful.
+
+When fixing an issue, describe the problem and the change clearly.
+
+## Notes
