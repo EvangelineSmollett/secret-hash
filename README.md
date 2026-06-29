@@ -55,3 +55,10 @@ Common files to check include:
 Install dependencies using the package manager or build tool indicated by the files in the repository.
 
 For example, if a dependency file is present, use the matching tool for that ecosystem.
+
+## Usage
+
+Start by reviewing the repository contents:
+
+```sh
+ls
