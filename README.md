@@ -109,3 +109,9 @@ This README intentionally avoids assuming details that are not present in the or
 Update this file as the project evolves.
 
 Add installation steps, usage examples, configuration details, and troubleshooting notes when they become available.
+
+## License
+
+No license information was provided in the original README.
+
+If a license file exists in the repository, refer to that file for licensing terms.
